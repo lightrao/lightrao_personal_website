@@ -173,7 +173,7 @@ footer {
 /* Language Visibility Logic */
 .lang-zh-active .lang-en,
 .lang-en-active .lang-zh {
-    display: none;
+    display: none !important;
 }
 
 /* Ensure display: block/inline is correct for elements */
