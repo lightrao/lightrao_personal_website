@@ -13,3 +13,4 @@
 - Created comprehensive README.md with project description, features list, and usage instructions
 - Added file structure documentation and browser compatibility information to README.md
 - Updated project history to track recent changes 
+- Reduced the size of avatar image in README.md by using HTML img tag with width attribute 

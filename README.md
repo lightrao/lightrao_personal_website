@@ -2,7 +2,7 @@
 
 A simple, responsive personal website for Light Rao with bilingual support (English and Chinese).
 
-![Light Rao's Website Screenshot](assets/images/avatar.png)
+<img src="assets/images/avatar.png" alt="Light Rao's Website Screenshot" width="200">
 
 ## Features
 
