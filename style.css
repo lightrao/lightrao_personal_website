@@ -77,6 +77,12 @@ header {
     border-radius: 50%; /* Circular avatar */
     margin-bottom: 20px;
     border: 3px solid #eee; /* Light border */
+    cursor: pointer; /* Show pointer cursor when hovering over the avatar */
+    transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 #basic-info h1 {
@@ -209,4 +215,46 @@ footer {
         flex-direction: column; /* Stack links vertically */
         align-items: center; /* Center stacked links */
     }
+}
+
+/* Image Lightbox Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 2000; /* Make sure it's above everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+    border-radius: 4px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #bbb;
+    text-decoration: none;
 }

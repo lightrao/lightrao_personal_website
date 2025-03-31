@@ -2,4 +2,9 @@
 
 ## 2024-05-21
 - Fixed language display issue in the summary section by adding `!important` to the language visibility CSS rules
-- Now only one language (English or Chinese) will be displayed in the summary section based on the selected language 
+- Now only one language (English or Chinese) will be displayed in the summary section based on the selected language
+
+## 2024-05-22
+- Added lightbox functionality to display the full avatar image when clicked
+- Implemented modal popup with close button and outside-click closing
+- Added hover effect to avatar to indicate it's clickable 
